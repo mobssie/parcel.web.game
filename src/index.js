@@ -1,5 +1,3 @@
-import "./styles.css";
-
 const score = document.querySelector(".score");
 const startBtn = document.querySelector(".startBtn");
 const gameArea = document.querySelector(".gameArea");
