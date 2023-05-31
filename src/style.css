@@ -64,3 +64,9 @@ body {
   text-align: center;
   background-color: royalblue;
 }
+
+/* 장애물 */
+.pipe {
+  position: absolute;
+  width: 100px;
+}
