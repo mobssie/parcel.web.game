@@ -1,0 +1,66 @@
+body {
+  overflow: hidden;
+  height: 100vh;
+  margin: 0;
+}
+
+.game {
+  height: 100%;
+}
+.hide {
+  display: none;
+}
+.gameArea {
+  width: 100%;
+  height: 100%;
+  background: skyblue;
+}
+.startBtn {
+  position: absolute;
+  background: red;
+  width: 50%;
+  left: 25%;
+  top: 100px;
+  color: wheat;
+  border: 1px solid black;
+  padding: 10px;
+}
+.bird {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 58px;
+  height: 40px;
+  background-image: url();
+  background-size: cover;
+  background-color: black;
+}
+.wing {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 25px;
+  height: 14px;
+  background-image: url();
+  background-size: cover;
+  background-color: yellowgreen;
+}
+.score {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  color: gold;
+  text-align: center;
+  height: 50px;
+  font-size: 1.5em;
+}
+.gameMessage {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  text-align: center;
+  background-color: royalblue;
+}
